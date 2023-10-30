@@ -1,4 +1,4 @@
-#include <elf.h> 
+#include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -123,7 +123,7 @@ void print_version(unsigned char *e_ident)
 	{
 		case EV_CURRENT:
 			printf(" (current)\n");
-			break
+			break;
 		default:
 			printf("\n");
 			break;
